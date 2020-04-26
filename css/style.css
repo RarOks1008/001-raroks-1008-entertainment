@@ -1,0 +1,400 @@
+* {
+	margin:0px;
+	padding:0px;
+	font-family: 'Spectral SC', serif;
+}
+#vratipocetak {
+	position:fixed;
+	bottom:50px;
+	right:0px;
+	width:70px;
+	height:50px;
+	background-color:rgba(0,134,255,0.4);
+	border-radius:10px 0 0 10px;
+}
+#vratipocetak p {
+	margin-left:20px;
+}
+#vratipocetak p a {
+	font-size:33px;
+	text-align:center;
+}
+#vratipocetak p a {
+	text-decoration:none;
+	color:#d0fcfd;
+}
+#vratipocetak p a:hover {
+	border-top:2px solid #0000FF;
+	border-bottom:2px solid #0000FF;
+}
+#reklamnideo {
+	position : fixed;
+	top:170px;
+	right:5px;
+	width:200px;
+	height:250px;
+	background-color:#FFFFFF;
+	border:3px solid #000000;
+}
+#reklamnideo h4 {
+	margin-top:70px;
+	text-align:center;
+	font-size:18px;
+	color:#3F3F3F;
+}
+#reklamnideo h4 a {
+	text-decoration:none;
+	color:#0000FF;
+}
+#reklamnideo h4 a:hover {
+	text-decoration:underline;
+}
+header {
+	width:100%;
+	height:150px;
+	background:radial-gradient(#FFFFFF, #8486FD);
+}
+#logo {
+	float:left;
+	margin-top:5px;
+	margin-left:3px;
+}
+nav ul {
+	padding:20px;
+	list-style-type:none;
+	text-align:center;
+}
+nav ul li {
+	margin-top:30px;
+	font-size:25px;
+	display:inline-block;
+	margin-left:90px;
+}
+nav ul li a {
+	text-decoration:none;
+	color:#0088FF;
+}
+nav ul li a:hover {
+	border-top:2px solid #0000FF;
+	border-bottom:2px solid #0000FF;
+	box-shadow: 10px 10px 5px #888888;
+	color:#0055FF;
+}
+nav ul li a:active {
+	border-top:2px solid #000000;
+	border-bottom:2px solid #000000;
+}
+nav .aktivanlink {
+	background:radial-gradient(#FFFFFF, #8486FD);
+	border-radius:5px;
+}
+.centralnideo {
+	width:100%;
+	background-image:url('../images/pozadinamac.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	background-color:#8486FD;
+}
+#formaidonacijeisearch {
+	float:left;
+	width:240px;
+	margin-top:100px;
+	background:radial-gradient(#FFFFFF, #8486FD);
+	color: #0000FF;
+}
+#goaldonacije {
+	margin:40px;
+}
+progress {
+	width:90px;
+}
+.red {
+	color:#FF0000;
+}
+#black {
+	color:#000000;
+	font-size:10px;
+}
+#pretrazisve input[type=text] {
+	width: 70px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    background-image: url('../images/searchicon.png');
+    background-repeat: no-repeat;
+    padding: 4px 6px 4px 25px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+#pretrazisve input[type=text]:focus {
+    width: 130px;
+}
+#prvaslika {
+	float:left;
+	width:35px;
+	height:17px;
+	background-image:url('../images/kreditnekartice.jpg');
+	background-repeat:no-repeat;
+	margin-right:3px;
+}
+#drugaslika {
+	float:left;
+	width:33px;
+	height:17px;
+	background-image:url('../images/kreditnekartice.jpg');
+	background-repeat:no-repeat;
+	background-position:-36px 0;
+	margin-right:3px;
+}
+#trecaslika {
+	float:left;
+	width:33px;
+	height:17px;
+	background-image:url('../images/kreditnekartice.jpg');
+	background-repeat:no-repeat;
+	background-position:-69px 0;
+	margin-right:3px;
+}
+#cetvrtaslika {
+	float:left;
+	width:35px;
+	height:17px;
+	background-image:url('../images/kreditnekartice.jpg');
+	background-repeat:no-repeat;
+	background-position:-99px 0;
+	margin-right:3px;
+}
+#petaslika {
+	float:left;
+	width:33px;
+	height:17px;
+	background-image:url('../images/kreditnekartice.jpg');
+	background-repeat:no-repeat;
+	background-position:-134px 0;
+	margin-right:3px;
+}
+.dugmici {
+	background:radial-gradient(#FFFFFF, #8486FD);
+	padding:5px;
+}
+.opcije {
+	background: #FFE0FF;
+}
+Main {
+	float:left; 
+	width:900px;
+	margin-bottom:50px;
+	margin-top:20px;
+	min-height:500px;
+}
+Main.centriranmain {
+	margin-left:190px;
+}
+#naslovirss {
+	position:relative;
+}
+#naslovirss #slikarss {
+	position:absolute;
+	top:0px;
+	right:250px;
+}
+#naslovirss #slikarss a:hover {
+	border-bottom: 5px solid #FF0000;
+}
+h1 {
+	text-align:center;
+	font-family: 'PT Serif Caption', serif;
+	font-size:60px;
+	color:#3F3F3F;
+}
+.novost {
+	position:relative;
+	width:600px;
+	height:350px;
+	float:left;
+	margin-left:150px;
+	margin-top:40px;
+	background:radial-gradient(#FFFFFF, #8486FD);
+}
+h2 {
+	color:#3F3F3F;
+}
+.novost h2 {
+	text-align:center;
+	margin-top:5px;
+	color:#3F3F3F;
+	margin-bottom:15px;
+}
+.novost .slicica {
+	margin-top:30px;
+	margin-left:20px;
+	float:left;
+	height:150px;
+	width:230px;
+}
+.novost .tekstic {
+	float:right;
+	height:240px;
+	width:300px;
+	margin-right:5px;
+}
+.novost .tekstic h3 {
+	color:white;
+	text-align:center;
+	font-size:18px;
+	color:#3F3F3F;
+}
+.datumnovosti {
+	position:absolute;
+	bottom:10px;
+	left:10px;
+}
+.datumnovosti time {
+	text-align:center;
+	line-height:1;
+	color:#3F3F3F;
+}
+footer {
+	min-height:240px;
+	/* Morao sam da ubacim zbog njihovog diva koji prekriva poslednju stavku */
+	width:100%;
+	background:radial-gradient(#FFFFFF, #8486FD);
+}
+#kontaktfuter {
+	float:left;
+	width:330px;
+}
+#kontaktfuter h3 {
+	color:#3F3F3F;
+	text-align:center;
+}
+#kontaktfuter p {
+	color:#3F3F3F;
+	text-align:center;
+}
+#kontaktfuter p a {
+	text-decoration:none;
+	color:#0000FF;
+}
+#kontaktfuter p a:hover {
+	color:#FF0000;
+}
+#linkovinasajtu {
+	float:left;
+	width:300px;
+	margin-left:50px;
+}
+#linkovinasajtu h3 {
+	color:#3F3F3F;
+	text-align:center;
+}
+#linkovinasajtu ul {
+	list-style-type:none;
+	text-align:center;
+}
+#linkovinasajtu ul li {
+	font-size:12px;
+	margin-top:2px;
+}
+#linkovinasajtu ul li a {
+	text-decoration:none;
+	color:#3F3F3F;
+}
+#socijalnamedija {
+	float:left;
+	width:370px;
+	margin-top:70px;
+	margin-left:90px;
+}
+#socijalnamedija ul {
+	list-style-type:none;
+}
+#socijalnamedija ul li {
+	display:inline-block;
+	margin-left:25px;
+}
+#socijalnamedija ul li a:hover {
+	border-bottom:2px solid #0000FF;
+}
+#linkovinasajtu ul li a:hover {
+	box-shadow: 2px 2px 1px #888888;
+}
+#obojimain {
+	width:inherit;
+	min-height:380px;
+	background:radial-gradient(#FFFFFF, #8486FD);
+}
+#centriranaforma {
+	width:500px;
+	margin:0px auto;
+}
+.spisakigrica {
+	float:left;
+	width:250px;
+	margin-right:20px;
+	color:#3F3F3F;
+}
+#centrirajspisakigrica {
+	margin-left:50px;
+}
+.spisakigrica h3 {
+	text-align:center;
+	margin-bottom:80px;
+	margin-top:20px;
+}
+.spisakigrica details {
+	margin-top:109px;
+	text-align:center;
+}
+.spisakigrica form {
+	margin-top:20px;
+}
+.spisakigrica #sakrivensadrzaj {
+	margin-top:20px;
+	margin-left:20px;
+	display:none;
+}
+.slikegalerija {
+	float:left;
+	margin-top:30px;
+	margin-right:10px;
+}
+.slikegalerija a img:hover {
+	border-radius:30px;
+}
+#map {
+	width:800px;
+	height:450px;
+	border:5px solid #888888;
+	margin-top:50px;
+}
+#autorslika {
+	float:left;
+}
+#autorslika img:hover {
+	border-radius:30px;
+}
+#autortekst {
+	margin-top:10px;
+	background:radial-gradient(#FFFFFF, #8486FD);
+	float:right;
+	width:500px;
+}
+#autortekst p {
+    text-indent:30px;
+	font-size:20px;
+	color:#000002;
+	text-align:justify;
+}
+abbr {
+	text-decoration:none;
+}
+.centriransadrzaj {
+	width:1200px;
+	margin:0px auto;
+}
+.cleaner {
+	clear:both;
+}
