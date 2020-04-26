@@ -5,4 +5,4 @@
 
 ## Website Desing
 
-![Home Image](git-image/image1.png){:width="250px"}
+![Home Image](git-image/image7.png)
