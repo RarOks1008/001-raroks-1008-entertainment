@@ -5,9 +5,8 @@
 
 ## Website Desing
 
-![Home Image](git-image/image1.png)
-
 ### *Home page*
+![Home Image](git-image/image1.png)
 
 ![Home Image](git-image/image2.png)
 
